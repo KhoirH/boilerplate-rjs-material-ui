@@ -1,18 +1,7 @@
-import { RouteProps } from 'react-router-dom';
+import RootWeb from './RootWeb';
 
-// {
-//   children,
-//   component,
-//   exect,
-//   location,
-//   path,
-//   render,
-//   sensitive,
-//   strict,
-//   middleware
-// }
-const routes:RouteProps[] = [{
-
-}];
+const routes = [
+  ...RootWeb,
+];
 
 export default routes;
