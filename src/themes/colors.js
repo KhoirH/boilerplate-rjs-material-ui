@@ -1,3 +1,3 @@
 export default {
- primaryColor: '#000' 
+ primaryColor: '#f00' 
 }

@@ -1,9 +1,9 @@
 import { red } from '@material-ui/core/colors';
-import { createTheme } from '@material-ui/core/styles';
+import { createTheme, responsiveFontSizes } from '@material-ui/core/styles';
 import Colors from './colors';
 
 // A custom theme for this app
-const theme = createTheme({
+let theme = createTheme({
   palette: {
     primary: {
       main: Colors.primaryColor,
@@ -20,4 +20,5 @@ const theme = createTheme({
   },
 });
 
+theme = responsiveFontSizes(theme);
 export default theme;
